@@ -1,7 +1,20 @@
 * {
   box-sizing: border-box;
 }
+a {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  margin-top: 122px;
+  margin-left: 98px;
+  display: flex;
+  position: relative;
+  text-decoration: none;
 
+}
 /* Style the navbar */
 .topnav {
   overflow: hidden;
@@ -42,6 +55,7 @@
   margin-top: 122px;
   font-size: 17px;
   border: none;
+  background-color: aqua;
   width: 244px; /* adjust as needed (as long as it doesn't break the topnav) */
 }
 
