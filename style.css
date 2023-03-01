@@ -55,6 +55,8 @@
   line-height: 18px;
   color: #666666;
   text-decoration: none;
+  display: flex;
+  position: relative;
 }
 .Input_Text_Label {
   margin-bottom: 8px;
@@ -72,3 +74,38 @@
   display: flex;
   position: relative;
 }
+.error {
+  margin-top: 8px;
+  margin-left: 98px;
+  margin-bottom: 32px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #EB5757;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+
+}
+.input__error {
+  display: flex;
+  flex-direction: column;
+  margin-left: 98px;
+  align-items: flex-start;
+  padding-left: 16px;
+  gap: 10px;
+  width: 564px;
+  height: 56px;
+  background: #ffffff;
+  border: 2px solid #EB5757;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+
+}
+  
