@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-a {
+.username {
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 600;
@@ -13,7 +13,21 @@ a {
   display: flex;
   position: relative;
   text-decoration: none;
-
+  margin-bottom: 8px;
+}
+.password {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  margin-top: 32px;
+  margin-left: 98px;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 8px;
 }
 /* Style the navbar */
 .topnav {
