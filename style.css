@@ -83,11 +83,10 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  color: #EB5757;
+  color: #eb5757;
   text-decoration: none;
   display: flex;
   position: relative;
-
 }
 .input__error {
   display: flex;
@@ -99,13 +98,14 @@
   width: 564px;
   height: 56px;
   background: #ffffff;
-  border: 2px solid #EB5757;
+  border: 2px solid #eb5757;
   border-radius: 8px;
   flex: none;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-
-
 }
-  
+.sign {
+  width: 20px;
+  height: 20px;
+}
