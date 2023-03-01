@@ -150,7 +150,7 @@
 }
 
 /* Create a custom checkbox */
-.checkmark {
+.checkmark__checkbox {
   position: absolute;
   top: 0;
   left: 0;
@@ -163,29 +163,29 @@
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.container:hover input ~ .checkmark__checkbox {
   background-color: #fff;
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
+.container input:checked ~ .checkmark__checkbox {
   background-color: #fff;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.checkmark__checkbox:after {
   content: "";
   position: absolute;
   display: none;
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.container input:checked ~ .checkmark__checkbox:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.container .checkmark__checkbox:after {
   left: 8px;
   top: 2px;
   width: 6px;
