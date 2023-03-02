@@ -190,9 +190,9 @@
   top: 2px;
   width: 6px;
   height: 15px;
-  border-style: double;
+  border-style: solid;
   border-color: #7a5cfa;
-  border-width: 0 4px 4px 0;
+  border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -486,4 +486,26 @@ button {
   display: flex;
   align-content: space-between;
   justify-content: start;
+}
+
+
+.dropdown__option {
+  margin: 32px auto 250px 98px;
+  width: 564px;
+  height: 56px;
+  line-height: 24px;
+  padding: 16px;
+  border: 2px solid #7A5CFA;
+  border-radius: 8px;
+  text-align: start;
+  justify-content: center;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  
+  
+
 }
