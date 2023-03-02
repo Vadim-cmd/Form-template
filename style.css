@@ -489,7 +489,7 @@ button {
 }
 
 
-.dropdown__option {
+.dropdown__option__main {
   margin: 32px auto 250px 98px;
   width: 564px;
   height: 56px;
@@ -508,4 +508,21 @@ button {
   
   
 
+}
+.dropdown__option {
+  margin: 32px auto 250px 98px;
+  width: 564px;
+  height: 56px;
+  line-height: 24px;
+  padding: 6px;
+  border: 2px solid #7A5CFA;
+  border-radius: 8px;
+  text-align: start;
+  justify-content: center;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
 }
