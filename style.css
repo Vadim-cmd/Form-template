@@ -1,8 +1,4 @@
-body {
-  max-width: 760px;
-  max-height: 1200px;
-  margin: 0;
-}
+
 .username {
   font-family: "Noto Sans";
   font-style: normal;
@@ -373,6 +369,22 @@ input:checked + .slider:before {
 }
 
 /*Dropdowm Menu ============================*/
+button {
+  width: 564px;
+  height: 56px;
+  padding-left: 16px;
+  margin-left: 98px;
+  text-align: left;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  background: #FFFFFF;
+  border: 2px solid #7A5CFA;
+  border-radius: 8px;
+}
 .dropdown {
   display: inline-block;
   position: relative;
@@ -380,20 +392,48 @@ input:checked + .slider:before {
 .dropdown-content {
   display: none;
   position: absolute;
-  width: 100%;
   overflow: auto;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+  width: 564px;
+  margin-left: 98px;
+  text-align: start;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  background: #FFFFFF;
+  
 }
 .dropdown:hover .dropdown-content {
   display: block;
+  
 }
 .dropdown-content a {
+  width: 654px;
+  height: 44px;
   display: block;
-  color: #000000;
-  padding: 5px;
+  
+  padding-left: 16px;
+  padding-top: 16px;
   text-decoration: none;
+  line-height: 48px;
+  
+  background: #FFFFFF;
+  border: 1px solid #7A5CFA;
+  border-radius: 8px;
+  text-align: start;
+  justify-content: center;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  background: #FFFFFF;
 }
 .dropdown-content a:hover {
   color: #ffffff;
-  background-color: #00a4bd;
+  background: #7A5CFA;
+  border: 1px solid #CCCCCC;
 }
