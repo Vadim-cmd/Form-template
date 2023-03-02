@@ -437,3 +437,53 @@ button {
   background: #7A5CFA;
   border: 1px solid #CCCCCC;
 }
+
+.button__cancel{
+  display: flex;
+  flex-direction: inline-block;
+  margin-top: 32px;
+  border:#7A5CFA;
+  width: 172px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 1px solid #7A5CFA;
+  border-radius: 8px;
+  color: #7a5cfa;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding-left: 56px;
+  padding-top: 14px;
+
+}
+.button__next{
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  border:#7A5CFA;
+  width: 172px;
+  height: 56px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  background: #7A5CFA;
+  border: 1px solid #7A5CFA;
+  border-radius: 8px;
+  color: #fff;
+  padding-left: 66px;
+  padding-top: 14px;
+  margin-left: 218px;
+
+}
+.buttons__footer {
+  margin-top: 215px;
+  display: flex;
+  align-content: space-between;
+  justify-content: start;
+}
