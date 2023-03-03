@@ -13,16 +13,16 @@
 <body>
    <div class="login-container">
     <form action="action_page.php">
-        <a href="Username" class="username">Username</a>
+        <span class="username">Username</span>
       <input type="text" placeholder="Enter username" name="username" class="input">
-        <a href="Password" class="password">Password</a>
+        <span class="password">Password</span>
       <input type="text" placeholder="Enter password" name="psw" class="input">
-      <a href="password__requirements" class="password__requirements">Your password is between 4 and 12 characters</a> 
+      <span class="password__requirements">Your password is between 4 and 12 characters</span> 
       
-      <a href="Input Text Label" class="Input_Text_Label">Input Text Label</a>
+      <span class="Input_Text_Label">Input Text Label</span>
       <input type="text" placeholder="" name="input__error" class="input__error">
       <img src="/Vector.svg" alt="sign" class="sign">
-      <a href="error" class="error">Error message informing me of a problem</a> 
+      <span class="error">Error message informing me of a problem</span> 
       
       <label class="container"
       >Remember me
@@ -34,7 +34,7 @@
       <input type="checkbox">
       <span class="slider round"></span>
       </label>
-      <a href="switch__text" class="switch__text">Off</a>
+      <span class="switch__text">Off</span>
     </label>
     <label class="radio__container"
       >Radio selection 1
@@ -53,15 +53,21 @@
       <input type="checkbox" />
       <span class="radio__checkmark"></span>
     </label>
+ <!-- ссылка <a href=“#”>Link</a>
+это редирект на новую страницу или открыть линку в новой вклдаке 
 
+если в новой то добавляеться вот такой атрибут   target="_blank"
+
+<a href=“#” target="_blank">Link</a> -->
        <div class="dropdown">
       <button>Dropdown option</button>
       <div class="dropdown-content">
-       <a href="https://blog.hubspot.com/">Dropdown option</a>
-       <a href="https://academy.hubspot.com/">Dropdown option 1</a>
-       <a href="https://www.youtube.com/user/hubspot">Dropdown option 2</a>
+       <a href="https://blog.hubspot.com/" target="_blank">Dropdown option</a>
+       <a href="https://academy.hubspot.com/" target="_blank">Dropdown option 1</a>
+       <a href="https://www.youtube.com/user/hubspot" target="_blank">Dropdown option 2</a>
        </div>
        </div> 
+       
 
        <div class="buttons__footer">
         <button class="button__cancel">Cancel</button>
